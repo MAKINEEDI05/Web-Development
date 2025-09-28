@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td, th, caption{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 3px
+        }
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+    <table>
+        <caption>TimeTable</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Work</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <time datetime="08:00">8 am</time> -- <time datetime="11:00">11 am</time>
+                </td>
+                <td>Write code</td>
+            </tr>
+            <tr>
+                <td>
+                    <time datetime="11:00">11 am</time> -- <time datetime="12:00">12 pm</time>
+                </td>
+                <td>Eat</td>
+            </tr>
+            <tr>
+                <td>
+                    <time datetime="12:00">12 pm</time> -- <time datetime="15:00">3 pm</time>
+                </td>
+                <td>Complete</td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    All other time
+                </td>
+                <td>Play</td>
+            </tr>
+            <tr>
+                <td>Learn</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Complete</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
