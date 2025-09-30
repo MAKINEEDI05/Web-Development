@@ -1,0 +1,19 @@
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: blue;
+    line-height: 3rem;
+    /* list-style-image: url('../img/paris3.avif');
+    list-style: square url('../img/paris3.avif') inside; */
+}
+ul li:nth-child(2){
+    color: red;
+}
+::marker{
+    color: blue;
+    /* content: "only &5 >>"; */
+}
