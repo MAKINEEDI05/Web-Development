@@ -2,4 +2,6 @@ h1{
     padding: 20px;
     border: 2px solid red;
     margin: 10px;
+    outline: 2px solid green;
+    outline-offset: 2px;
 }
