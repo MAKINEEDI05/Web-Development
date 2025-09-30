@@ -1,0 +1,12 @@
+a{
+    cursor: pointer;
+}
+a:visited{
+    color: purple;
+}
+a:hover, a.focus{
+    color: lightblue;
+}
+a:active{
+    color: aqua;
+}
