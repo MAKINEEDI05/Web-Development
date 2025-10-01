@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+section{
+    height: 100vh;
+}
+section h1{
+    padding: 1rem;
+    margin-bottom: 3px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.one h1{
+    background-color: red;
+}
+.two h1{
+    background-color: green;
+}
+.three h1{
+    background-color: blue;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    position: fixed;
+    top: 30%;
+    z-index: 1;
+}
+nav li{
+    padding: 3px;
+}
+nav button{
+    font-size: 1.5rem;
+    border-radius: 25%;
+}
+footer{
+    font-size: 2rem;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+}
+footer li{
+    display: inline;
+}
+a{
+    
+}
