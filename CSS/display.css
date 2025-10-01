@@ -8,24 +8,21 @@ header{
     font-family: "Roboto", sans-serif;
     background-color: aquamarine;
 }
-ul{
-}
 li{
     padding-left: 10px;
     display: inline;
+    display: inline-block;
 }
 a{
     color: black;
-    display: inline-block;
     text-decoration: none;
-    transition: transform 0.2s ease, color 0.2s ease;
 }
 a:visited{
     color: green;
 }
 a:hover, a:focus{
     color: blue;
-    transform: scale(1.2rem);
+    text-decoration: underline;
 }
 a:active{
     color: red;
