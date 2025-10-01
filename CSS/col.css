@@ -1,0 +1,24 @@
+body{
+    font-size: 1.5rem;
+}
+.column{
+    columns: 4 250px;
+    column-rule: 3px solid red;
+    column-gap: 3rem;
+    /* column-count: 4;
+    column-width: 250px; */
+}
+p{
+    margin-top: 0px;
+}
+h1{
+    padding: 1rem;
+    background-color: aqua;
+    break-inside: avoid;
+}
+.column .sample{
+    margin-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    column-span: all;
+}
