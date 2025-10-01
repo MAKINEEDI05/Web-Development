@@ -1,0 +1,11 @@
+img{
+    display: block;
+}
+.sample{
+    padding-left: 20px;
+    border: 2px solid red;
+}
+img{
+    width: 25%;
+    height: auto;
+}
