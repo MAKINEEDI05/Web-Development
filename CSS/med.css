@@ -1,0 +1,67 @@
+body{
+    background-color: yellow;
+    background-image: radial-gradient(whitesmoke,yellow);
+    display: flex;
+    flex-direction: column;
+}
+header, nav, main, footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+header, footer{
+    position: sticky;
+    color: white;
+    background-color: black;
+}
+header{
+    top: 0;
+}
+nav{
+    color: black;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    bottom: 0;
+}
+@media screen and (min-width: 576px){
+    body{
+        background-color: green;
+        background-image: radial-gradient(whitesmoke,green );
+    }
+    nav{
+        display: none;
+    }
+}
+@media screen and (min-width: 576px){
+    body{
+        background-color: green;
+        background-image: radial-gradient(whitesmoke,green );
+    }
+    nav{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    body{
+        background-color: rgb(239, 95, 5);
+        background-image: radial-gradient(whitesmoke,rgb(255, 85, 7) );
+    }
+    nav{
+        display: none;
+    }
+}
+@media screen and (min-width: 900px){
+    body{
+        background-color: rgb(0, 225, 255);
+        background-image: radial-gradient(whitesmoke,rgb(0, 208, 255) );
+    }
+    nav{
+        display: none;
+    }
+}
