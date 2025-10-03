@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+    background-image: radial-gradient(white,yellow);
+    display: flex;
+    flex-direction: column;
+}
+header, footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: grid;
+}
+header nav{
+    padding: 10px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+header a{
+    color: black;
+}
+main{
+    flex-grow: 1;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+header, footer{
+    position: sticky;
+}
+footer{
+    bottom: 0;
+}
